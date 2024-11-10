@@ -1,6 +1,6 @@
 # Two-Population Coupled Oscillators Simulation
 
-This project simulates the dynamics of two populations of coupled oscillators based on a generalized Kuramoto model. The model includes oscillators that are coupled with each other, possibly with a phase lag, and the goal is to study how different parameters influence synchronization over time. The simulation computes the evolution of the oscillator phases and visualizes key quantities like the **order parameter** and **phase distribution**.
+This work simulates the dynamics of two populations of coupled oscillators based on a generalized Kuramoto model. The model includes oscillators that are coupled with each other, possibly with a phase lag, and the goal is to study how different parameters influence synchronization over time. The simulation computes the evolution of the oscillator phases and visualizes key quantities like the **order parameter** and **phase distribution**.
 
 ## Brief Description
 
@@ -68,5 +68,12 @@ The system of coupled oscillators is solved using the `odeint` function, which n
 The output is the evolution of the phase values for each oscillator over time. After integration, the phase values are wrapped to the range \([-π, π]\) to ensure they remain within the periodic boundary conditions.
 
 The integration captures how the system evolves over time, revealing synchronization or desynchronization dynamics between the two populations of oscillators.
+
+## References
+
+This work is based on the **Kuramoto model of coupled oscillators**, which is widely used in the study of synchronization phenomena in physics, biology, and network theory.
+
+- Kuramoto, Y. (1975). Self-entrainment of a population of coupled non-linear oscillators. *International Journal of Engineering Science*, 16(11), 1187-1206.
+
 
 
